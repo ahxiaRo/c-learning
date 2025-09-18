@@ -54,3 +54,5 @@ a.out Assembler OUTput
 ```A .c is used to end a C program filename.```
 
 ![image](output1-8.PNG)
+
+![image](Screenshot_19-9-2025_02212_.jpeg)
