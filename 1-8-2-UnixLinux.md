@@ -47,3 +47,4 @@ BUDGET.C是无效文件名，因为该名称的扩展名使用了大写C而不�
 ```a.out```
 输出内容如下：
 ```A .c is used to end a C program filename.```
+![image](output1-8.PNG)
