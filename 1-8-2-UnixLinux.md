@@ -3,23 +3,27 @@
 由于C语言因UNIX系统而生，也因此而流行，所以我们从UNIX系统开
 始（注意：我们提到的UNIX还包含其他系统，如FreeBSD，它是UNIX的一
 个分支，但是由于法律原因不使用该名称）。
-1.在UNIX系统上编辑
-UNIX 
-C没有自己的编辑器，但是可以使用通用的UNIX编辑器，如
-emacs、jove、vi或X Window System文本编辑器。
+
+#### 1.在UNIX系统上编辑
+
+UNIX
+
+C没有自己的编辑器，但是可以使用通用的UNIX编辑器，
+如emacs、jove、vi或X Window System文本编辑器。
 作为程序员，要负责输入正确的程序和为储存该程序的文件起一个合适
 的文件名。如前所述，文件名应该以.c结尾。注意，UNIX区分大小写。因
 此，budget.c、BUDGET.c和Budget.c是3个不同但都有效的C源文件名。但是
 BUDGET.C是无效文件名，因为该名称的扩展名使用了大写C而不是小写c。
-假设我们在vi编译器中编写了下面的程序，并将其储存在inform.c文件
-中：
+
+假设我们在vi编译器中编写了下面的程序，并将其储存在inform.c文件中：
+```
 #include　<stdio.h>
  int　main(void)
  {
  printf("A　.c　is　used　to　end　a　C　program　filename.\n");
  return　0;
  }
- 50
+```
 以上文本就是源代码，inform.c是源文件。注意，源文件是整个编译过
 程的开始，不是结束。
 2.在UNIX系统上编译
